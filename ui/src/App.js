@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import Portfolio from './components/Portfolio'
 // import './App.css';
+import chartImg from './assets/img/chart.png';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
 		  		<a href="#" className="img logo rounded-circle mb-5" style={{backgroundImage: 'url(./assets/img/logo.jpg)'}}></a>
 	        <ul className="list-unstyled components mb-5">
 	          <li className="active">
-              <a href="#content">Strategies</a>
+              <a href="#">Strategies</a>
 	            {/* <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Strategies</a>
 	            <ul className="collapse list-unstyled" id="homeSubmenu">
                 <li>
@@ -61,9 +62,9 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="nav navbar-nav ml-auto">
                 <li className="nav-item active">
-                    <a href="#" className="img logo rounded-circle" style={{backgroundImage: 'url(./assets/img/logo.jpg)'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    {/* <a href="#" className="img logo rounded-circle" style={{backgroundImage: 'url(./assets/img/logo.jpg)'}}></a> */}
+                    <a className="nav-link" href="#">Alexandr</a>
                 </li>
-                <a className="nav-link" href="#">Home</a>
                 {/* <li className="nav-item">
                     <a className="nav-link" href="#">About</a>
                 </li>
@@ -78,9 +79,16 @@ function App() {
           </div>
         </nav>
 
-        <h3 className="mb-4">Sidebar #01</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 className="mb-0">Strategies</h3>
+        <p className="ml-4"><span>Rox </span>option trading strategy</p>
+        <div className="container text-center">
+          <img className="" src={chartImg} style={{width:'100%'}} alt="chart"/>
+        </div>
+
+        <p>GMA 11.1 - NIFTY OPTION BUY 2 LOT ATM-one Trader per Day-with TSL-2X</p>
+        <div>
+
+        </div>
       </div>
     </div>
   );
