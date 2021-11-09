@@ -46,48 +46,51 @@ function App() {
 	      </div>
     	</nav>
 
-      <div id="content" className="p-4 p-md-5">
+        <div id="content" className="p-4 p-md-5">
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container-fluid">
 
-            <button type="button" id="sidebarCollapse" className="btn btn-primary">
-              <i className="fa fa-bars"></i>
-            </button>
-            <h2 className="ml-2"> ALGO TRADING</h2>
-            <button className="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button type="button" id="sidebarCollapse" className="btn btn-primary">
                 <i className="fa fa-bars"></i>
-            </button>
+              </button>
+              <h2 className="ml-2"> ALGO TRADING</h2>
+              <button className="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i className="fa fa-bars"></i>
+              </button>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="nav navbar-nav ml-auto">
-                <li className="nav-item active">
-                    {/* <a href="#" className="img logo rounded-circle" style={{backgroundImage: 'url(./assets/img/logo.jpg)'}}></a> */}
-                    <a className="nav-link" href="#">Alexandr</a>
-                </li>
-                {/* <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Portfolio</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Contact</a>
-                </li> */}
-              </ul>
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="nav navbar-nav ml-auto">
+                  <li className="nav-item active">
+                      {/* <a href="#" className="img logo rounded-circle" style={{backgroundImage: 'url(./assets/img/logo.jpg)'}}></a> */}
+                      <a className="nav-link" href="#">Alexandr</a>
+                  </li>
+                  {/* <li className="nav-item">
+                      <a className="nav-link" href="#">About</a>
+                  </li>
+                  <li className="nav-item">
+                      <a className="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li className="nav-item">
+                      <a className="nav-link" href="#">Contact</a>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
+          </nav>
+                  
+          <div className="strategies-pane">
+            <h3 className="mb-0">Strategies</h3>
+            <p className="ml-4"><span>Rox </span>option trading strategy</p>
+            <div className="container text-center">
+              <img className="" src={chartImg} style={{width:'100%'}} alt="chart"/>
             </div>
           </div>
-        </nav>
 
-        <h3 className="mb-0">Strategies</h3>
-        <p className="ml-4"><span>Rox </span>option trading strategy</p>
-        <div className="container text-center">
-          <img className="" src={chartImg} style={{width:'100%'}} alt="chart"/>
-        </div>
-
-        <p>GMA 11.1 - NIFTY OPTION BUY 2 LOT ATM-one Trader per Day-with TSL-2X</p>
-        <div>
-
+          <div>
+            <p>GMA 11.1 - NIFTY OPTION BUY 2 LOT ATM-one Trader per Day-with TSL-2X</p>
+            <div>
+          </div>
         </div>
       </div>
     </div>
